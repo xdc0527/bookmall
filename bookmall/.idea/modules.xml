@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/bookmall.iml" filepath="$PROJECT_DIR$/bookmall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bookmall-all/bookmall-all.iml" filepath="$PROJECT_DIR$/bookmall-all/bookmall-all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bookmall-core/bookmall-core.iml" filepath="$PROJECT_DIR$/bookmall-core/bookmall-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bookmall-db/bookmall-db.iml" filepath="$PROJECT_DIR$/bookmall-db/bookmall-db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bookmall-wx-api/bookmall-wx-api.iml" filepath="$PROJECT_DIR$/bookmall-wx-api/bookmall-wx-api.iml" />
+    </modules>
+  </component>
+</project>

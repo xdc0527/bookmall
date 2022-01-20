@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bookmall-db" />
+        <module name="bookmall-core" />
+        <module name="bookmall-wx-api" />
+        <module name="bookmall-all" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bookmall" target="1.8" />
+      <module name="bookmall-all" target="1.8" />
+      <module name="bookmall-core" target="1.8" />
+      <module name="bookmall-db" target="1.8" />
+      <module name="bookmall-wx-api" target="1.8" />
+      <module name="litemall-admin-api" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="bookmall-all" options="-parameters" />
+      <module name="bookmall-core" options="-parameters" />
+      <module name="bookmall-db" options="-parameters" />
+      <module name="bookmall-wx-api" options="-parameters" />
+      <module name="litemall-admin-api" options="-parameters" />
+    </option>
+  </component>
+</project>
